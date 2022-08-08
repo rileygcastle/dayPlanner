@@ -1,0 +1,113 @@
+HTML {
+  background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908629.jpg?w=2000");
+}
+
+  .star1 {
+  width: 200px;
+  position: absolute; 
+  top:20px;
+  left:300px;
+  }
+
+.star2 {
+    transform: scaleX(-1);
+    width: 200px;
+    position: absolute; 
+    top:20px;
+    right:300px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  color: palevioletred;
+  padding-bottom: 80px;
+}
+
+.description {
+    color: palevioletred;
+    font-size: 24px;
+    padding:20px;
+    display:inline;
+}
+
+.time-label {
+    text-align: left;
+}
+
+.input-label {
+    padding-left: 50px;
+}
+
+.event-label {
+    padding-left: 260px;
+}
+
+
+
+.hour-block {
+  color: rgb(89, 10, 79);
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.label {
+  color: rgb(89, 10, 79);
+  width: 70px;
+  padding: 12px;
+  text-align: center;
+}
+
+.text-box {
+  color: rgb(89, 10, 79);
+  margin-left: 36px;
+}
+
+.text-input {
+  padding: 10px;
+  border-radius: 6px;
+  border-width: 0px;
+  box-shadow: 5px 7px 5px rgba(89, 10, 78, 0.325),
+    -5px -7px 5px rgba(190, 245, 255, 0.203);
+}
+
+.save-button {
+  margin-left: 12px;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 6px;
+  color: rgb(89, 10, 79);
+  box-shadow: 5px 7px 5px rgba(89, 10, 78, 0.325),
+  -5px -7px 5px rgba(190, 245, 255, 0.203);
+  background-color: rgb(255, 212, 242);
+}
+
+.clear-all-btn {
+    font-size: 20px;
+    margin: 20px;
+    position: absolute;
+    right:60px;
+    padding: 15px 20px;
+    border-width: 0px;
+    border-radius: 6px;
+    color: rgb(89, 10, 79);
+    box-shadow: 5px 7px 5px rgba(89, 10, 78, 0.325),
+    -5px -7px 5px rgba(190, 245, 255, 0.203);
+    background-color: rgb(255, 212, 242);
+
+}
+
+.clear-btn {
+    margin-left: 12px;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 6px;
+  color: rgb(89, 10, 79);
+  box-shadow: 5px 7px 5px rgba(89, 10, 78, 0.325),
+  -5px -7px 5px rgba(190, 245, 255, 0.203);
+  background-color: rgb(255, 212, 242);
+  
+
+}
+
